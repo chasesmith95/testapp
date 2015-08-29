@@ -1,5 +1,7 @@
 Testapp::Application.routes.draw do
   
+  resources :accounts
+
   root 'dashboard#index'
   get "dashboard/index"
   # The priority is based upon order of creation: first created -> highest priority.
